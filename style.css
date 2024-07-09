@@ -14,22 +14,32 @@ nav {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: #debdce;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+}
+
+nav.scrolled {
+    background-color: #e070aa; /* Background color after scroll */
+    padding: 1rem 2rem; /* Adjust padding after scroll */
 }
 
 nav h1 {
     color: #e070aa;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   
 nav a {
     color: #e070aa;
     text-decoration: none;
-    /**transition: hover;**/
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
+    transition: color 0.3s ease; 
   }
 
 nav a:hover {
     color: #a3527c;
     text-decoration: none;
+    font-size: 1rem;
+    font-family: "Quicksand", sans-serif;
   }
   
 nav ul {
