@@ -1,7 +1,7 @@
 body, nav, ul {
     margin: 0px;
     padding: 0px;
-    font-family: "Playwrite CL", cursive;
+    font-family: "Lora", serif;
 }
 
 nav {
@@ -27,7 +27,6 @@ nav a {
 
 nav a:hover {
     color: #a3527c;
-    border-bottom: 2px solid #a3527c;
   }
   
 nav ul {
