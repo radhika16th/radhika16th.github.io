@@ -2,7 +2,6 @@
 body, nav, ul {
     margin: 0;
     padding: 0;
-    background-color: #ded0ec;
 }
 
 /* Navbar styles */
@@ -11,7 +10,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px; /* Adjust padding as needed */
-    background-color: #ded0ec; /* Background color */
+    background-color: #ffffff; /* Background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
     position: fixed;
     width: 100%;
@@ -21,8 +20,8 @@ nav {
 nav h1 {
     font-size: 1.5rem; /* Adjust font size */
     font-weight: bold;
-    color: #82486a; /* Text color */
-    margin-right: 50px;
+    color: #333; /* Text color */
+    margin-right: 50px; /* Adjust margin to control distance from navigation links */
 }
 
 .navigation {
@@ -43,7 +42,7 @@ nav h1 {
 }
 
 .navigation li a:hover {
-    color: #f67be6; /* Hover color */
+    color: #007bff; /* Hover color */
 }
 
 .burger-menu {
