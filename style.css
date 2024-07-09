@@ -1,0 +1,18 @@
+body, nav, ul {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Vollkorn', sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: #debdce;
+}
+
