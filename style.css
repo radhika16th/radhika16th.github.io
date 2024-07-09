@@ -37,3 +37,12 @@ nav ul {
 nav ul li {
     font-weight: bold;
   }
+
+.burger-menu {
+    color: #e070aa;
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
