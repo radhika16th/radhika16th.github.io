@@ -1,0 +1,52 @@
+/* Reset default margin and padding */
+body, nav, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; /* Adjust padding as needed */
+    background-color: #ffffff; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+nav h1 {
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold;
+    color: #333; /* Text color */
+}
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; /* Adjust spacing between items */
+}
+
+.navigation li {
+    margin: 0;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: #333; /* Link text color */
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navigation li a:hover {
+    color: #007bff; /* Hover color */
+}
+
+.burger-menu {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
