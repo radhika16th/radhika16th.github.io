@@ -2,6 +2,7 @@
 body, nav, ul {
     margin: 1;
     padding: 0;
+    background-color: #ded0ec;
 }
 
 /* Navbar styles */
@@ -9,7 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 50px; /* Adjust padding as needed */
+    padding: 100px 50px; /* Adjust padding as needed */
     background-color: #ded0ec; /* Background color */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
     position: fixed;
