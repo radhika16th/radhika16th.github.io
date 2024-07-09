@@ -22,6 +22,7 @@ nav h1 {
     font-size: 1.5rem; /* Adjust font size */
     font-weight: bold;
     color: #82486a; /* Text color */
+    margin-right: 50px;
 }
 
 .navigation {
