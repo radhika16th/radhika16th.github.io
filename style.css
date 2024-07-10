@@ -65,16 +65,16 @@ nav ul li {
 .hero {
     display: flex;
     align-items: left;
-    justify-content: right;
+    justify-content: left;
     padding: 3rem;
 }
 
 .bio {
     display: flex;
     flex-direction: column;
-    align-items: right; /* Center the text elements */
+    align-items: left; /* Center the text elements */
     max-width: 40rem; /* Adjust the max-width as needed */
-    text-align: right; /* Center align the text */
+    text-align: left; /* Center align the text */
 }
 
 .bio-title, .bio-title2, .bio-text {
