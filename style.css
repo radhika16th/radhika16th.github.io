@@ -72,7 +72,7 @@ nav ul li {
 .bio {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the text elements */
+    align-items: right; /* Center the text elements */
     max-width: 40rem; /* Adjust the max-width as needed */
     text-align: center; /* Center align the text */
 }
