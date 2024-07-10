@@ -42,7 +42,7 @@ nav a {
 nav a:hover {
     color: #8c5767;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: "Quicksand", sans-serif;
   }
   
@@ -69,7 +69,19 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2.5rem;
-    max-width: 10rem;
-    margin: auto;
+    /* gap: 2.5rem;
+    max-width: 5rem;
+    margin: auto; */
+    text-align: center;
+    padding: 3rem;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-title, .bio-title2, .bio-text {
+    margin: 1rem 0;
 }
