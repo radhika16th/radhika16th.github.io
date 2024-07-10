@@ -2,6 +2,7 @@ body, nav, ul {
     margin: 0px;
     padding: 0px;
     font-family: "Quicksand", sans-serif;
+    background-color: #d5d0d0;
 }
 
 nav {
@@ -18,7 +19,7 @@ nav {
 }
 
 nav.scrolled {
-    background-color: #41393d; /* Background color after scroll */
+    background-color: #8c5767; /* Background color after scroll */
     padding: 1rem 2rem; /* Adjust padding after scroll */
 }
 
@@ -30,13 +31,13 @@ nav h1 {
 nav a {
     color: #000000;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family: "Quicksand", sans-serif;
     transition: color 0.3s ease; 
   }
 
 nav a:hover {
-    color: #41393d;
+    color: #8c5767;
     text-decoration: none;
     font-size: 1rem;
     font-family: "Quicksand", sans-serif;
@@ -53,10 +54,19 @@ nav ul li {
   }
 
 .burger-menu {
-    color: #41393d;
+    color: #8c5767;
     font-size: 2rem;
     border: 0;
     background-color: transparent;
     cursor: pointer;
     display: none;
   }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 10rem;
+    margin: auto;
+}
