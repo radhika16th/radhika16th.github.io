@@ -66,7 +66,6 @@ nav ul li {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    /* justify-content: flex-start; */
     padding: 7rem;
 }
 
@@ -84,4 +83,8 @@ nav ul li {
 
 .bio h3 {
     font-size: 2.5rem;
+}
+
+.bio p {
+    font-size: 1.5rem;
 }
