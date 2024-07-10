@@ -1,5 +1,5 @@
 body {
-    background-color: #d5d0d0;
+    background-color: #f1eded;
 }
 
 body, nav, ul {
@@ -14,10 +14,11 @@ nav {
     left: 0;
     z-index: 1;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    margin: 7rem;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: #d5d0d0;
+    background-color: #f1eded;
     transition: background-color 0.3s ease, padding 0.3s ease;
 }
 
