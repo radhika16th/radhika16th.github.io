@@ -78,14 +78,14 @@ nav ul li {
     text-align: left; /* Center align the text */
 }
 
-.bio-title, .bio-title2, .bio-text {
+.bio h1, h3, p {
     margin: 1rem 0;
 }
 
-.bio-title {
+.bio h1 {
     font-size: 5rem;
 }
 
-.bio-title2 {
+.bio h3 {
     font-size: 3rem;
 }
