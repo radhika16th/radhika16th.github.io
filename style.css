@@ -5,12 +5,6 @@ body {
     background-color: #f1eded;
 }
 
-/* body, nav, ul {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Quicksand", sans-serif;
-} */
-
 nav {
     position: sticky;
     top: 0;
@@ -66,25 +60,15 @@ nav ul li {
   }
 
 .hero {
-    /* height: 2rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 7rem; */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 7rem 3.5rem;
+    padding: 7rem 0.5rem;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .bio {
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Center the text elements */
-    /* max-width: 80rem; Adjust the max-width as needed */
-    /* text-align: left; Center align the text */ 
     max-width: 800px;
     text-align: left;
 }
