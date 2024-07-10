@@ -64,7 +64,7 @@ nav ul li {
 
 .hero {
     display: flex;
-    align-items: center;
+    align-items: right;
     justify-content: right;
     padding: 3rem;
 }
