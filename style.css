@@ -65,7 +65,7 @@ nav ul li {
 .hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     padding: 3rem;
 }
 
@@ -79,4 +79,8 @@ nav ul li {
 
 .bio-title, .bio-title2, .bio-text {
     margin: 1rem 0;
+}
+
+.bio-title {
+    font-size: 1.5rem;
 }
