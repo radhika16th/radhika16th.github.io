@@ -20,7 +20,7 @@ nav {
 
 nav.scrolled {
     background-color: #8c5767; /* Background color after scroll */
-    padding: 1rem 2rem; /* Adjust padding after scroll */
+    /* padding: 1rem 2rem;  */
 }
 
 nav h1 {
@@ -95,12 +95,6 @@ nav ul li {
     text-align: center;
     margin-top: 1.5rem;
     border-top: 1px solid #000000;
-}
-
-footer p {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: #000000;
 }
 
 footer ul {
