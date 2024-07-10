@@ -67,8 +67,6 @@ nav ul li {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 3rem;
-    max-width: 1200px;
-    margin: auto;
 }
 
 .bio {
