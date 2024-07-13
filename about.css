@@ -98,6 +98,10 @@ nav ul li {
     margin-bottom: 0.5rem;
 }
 
+.Contact, .awards, .misc h1 {
+    margin-left: 1rem;
+}
+
 .bio, .Contact, .awards, .misc p {
     font-size: 1.25rem;
     margin-bottom: 1rem;
