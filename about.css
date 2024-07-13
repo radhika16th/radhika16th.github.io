@@ -99,7 +99,7 @@ nav ul li {
 }
 
 .Contact, .awards, .misc h1 {
-    margin-left: 1rem;
+    padding: 0 1.5rem;
 }
 
 .bio, .Contact, .awards, .misc p {
